@@ -6,5 +6,6 @@ export default async (req: Request, res: Response) => {
     iosMinVersion: '1.0.0',
     playStore: 'https://',
     appStore: 'https://',
+    maintenanceMode: false,
   });
 };
