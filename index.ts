@@ -1,11 +1,11 @@
 export default async (req: Request, res: Response) => {
   res.json({
-    androidCurrentVersion: '1.0.0',
-    androidMinVersion: '1.0.0',
-    iosCurrentVersion: '1.0.0',
-    iosMinVersion: '1.0.0',
-    playStoreLink: 'https://',
-    appStoreLink: 'https://',
+    androidCurrentVersion: '0.0.1',
+    androidMinVersion: '0.0.1',
+    iosCurrentVersion: '0.0.1',
+    iosMinVersion: '0.0.1',
+    playStoreLink: 'https://google.com',
+    appStoreLink: 'https://google.com',
     maintenanceMode: false,
   });
 };
