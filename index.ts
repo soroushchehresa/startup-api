@@ -4,8 +4,8 @@ export default async (req: Request, res: Response) => {
     androidMinVersion: '0.0.1',
     iosCurrentVersion: '0.0.1',
     iosMinVersion: '0.0.1',
-    playStoreLink: 'https://google.com',
-    appStoreLink: 'https://google.com',
+    playStoreLink: 'https://',
+    appStoreLink: 'https://',
     maintenanceMode: false,
   });
 };
