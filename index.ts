@@ -7,6 +7,6 @@ export default async (req: Request, res: Response) => {
     playStoreLink: 'https://',
     appStoreLink: 'https://',
     maintenanceMode: true,
-    maintenanceModeText: 'mmmmm',
+    maintenanceModeText: 'Maintenance Mode!',
   });
 };
