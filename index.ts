@@ -6,7 +6,7 @@ export default async (req: Request, res: Response) => {
     iosMinVersion: '0.0.1',
     playStoreLink: 'https://',
     appStoreLink: 'https://',
-    maintenanceMode: true,
-    maintenanceModeText: 'Maintenance Mode!',
+    maintenanceMode: false,
+    maintenanceModeText: 'Coming soon...',
   });
 };
